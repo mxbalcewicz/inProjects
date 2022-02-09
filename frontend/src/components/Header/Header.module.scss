@@ -1,0 +1,18 @@
+.wrapper {
+  display: block;
+}
+
+.navItem {
+  display: inline-block;
+  margin-right: 50px;
+  list-style: none;
+  user-select: none;
+
+  span {
+    cursor: pointer;
+  }
+
+  span:hover {
+    text-decoration: underline;
+  }
+}
